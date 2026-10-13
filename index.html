@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sohaib Ali | AI & Data Science</title>
+<meta name="description" content="Sohaib Ali, BS Artificial Intelligence student and Data Science intern working in Machine Learning, Computer Vision and NLP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="glow" id="glow"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#home">Sohaib Ali</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  <nav class="links" id="links">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a>
+    <a class="btn small" href="#contact">Contact me</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="h-top">
+    <p class="im rise" style="--d:.1s">I'm</p>
+    <h1 class="name" aria-label="Sohaib Ali"><span class="word"><span>Sohaib</span></span><br><span class="word"><span>Ali</span></span></h1>
+    <p class="role rise" style="--d:.6s">I build <b id="typed"></b><span class="caret"></span></p>
+  </div>
+  <div class="hero-photo rise" style="--d:.3s"><img src="assets/sohaib-cutout.webp" alt="Sohaib Ali" width="923" height="1000"></div>
+  <p class="lead h-bl rise" style="--d:.8s">AI student turning data into working models, from fraud detection and recommenders to cricket ball tracking with computer vision.</p>
+  <div class="h-br rise" style="--d:.95s">
+    <div class="actions"><a class="btn" href="#contact">Contact me</a><a class="btn ghost" href="#projects">View my work</a></div>
+    <div class="socials"><a href="https://github.com/sohaibali66" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/sohaib-ali-36529941b" target="_blank" rel="noopener">LinkedIn</a><a href="tel:+923151532458">0315 1532458</a></div>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <h2 class="reveal">About me</h2>
+  <div class="about">
+    <div class="reveal">
+      <p class="big">I like taking a messy real-world problem and turning it into data, a model and something people can use.</p>
+      <p>I'm a BS Artificial Intelligence student at COMSATS University, Attock Campus. My work covers machine learning, deep learning, computer vision and NLP, backed by Python, SQL and web development.</p>
+      <p>Right now I'm building <b>CricketSense</b>, my final year project. It detects the cricket ball, tracks its path and recommends shots. I want to grow into an AI Engineer who ships scalable, useful systems.</p>
+      <dl class="facts">
+      <div><dt>Degree</dt><dd>BS Artificial Intelligence</dd></div>
+      <div><dt>University</dt><dd>COMSATS University, Attock</dd></div>
+      <div><dt>Learning now</dt><dd>Advanced ML, YOLO, CNN/LSTM/GRU, MLOps</dd></div>
+      <div><dt>Location</dt><dd>Pakistan</dd></div>
+    </dl>
+    </div>
+    <div class="codewrap reveal">
+      <div class="code" id="code">
+        <div class="bar"><i></i><i></i><i></i><span>sohaib_ai.py</span></div>
+<pre><span class="line" style="--i:0"><span class="k">class</span> <span class="f">AIEngineer</span>:</span><span class="line" style="--i:1">    focus = [</span><span class="line" style="--i:2">        <span class="s">"Machine Learning"</span>,</span><span class="line" style="--i:3">        <span class="s">"Computer Vision"</span>,</span><span class="line" style="--i:4">        <span class="s">"NLP"</span></span><span class="line" style="--i:5">    ]</span><span class="line" style="--i:6"> </span><span class="line" style="--i:7">    <span class="k">def</span> <span class="f">build</span>(problem):</span><span class="line" style="--i:8">        <span class="c"># data in, impact out</span></span><span class="line" style="--i:9">        solution = model(problem)</span><span class="line" style="--i:10">        <span class="k">return</span> deploy(solution)<span class="cur"></span></span></pre>
+      </div>
+      <span class="tagf a">Python</span><span class="tagf b">OpenCV</span><span class="tagf c">YOLO</span>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="experience">
+  <h2 class="reveal">Experience</h2>
+  <div class="timeline">
+    <article class="job reveal">
+      <span class="dot"></span>
+      <div class="when">2026</div>
+      <div class="card">
+        <h3>Machine Learning Intern</h3><p class="org">DecodeLabs · Batch 2026</p>
+        <ul>
+          <li>Cleaned and explored the Titanic dataset: missing values, IQR and Z-score outliers, new features.</li>
+          <li>Built a fraud detection pipeline on 284,807 transactions, using SMOTE to handle class imbalance, then Logistic Regression, Random Forest and GridSearchCV.</li>
+          <li>Segmented customers with PCA and K-Means, and wrote customer personas from the clusters.</li>
+        </ul>
+        <a class="link" href="https://github.com/sohaibali66/DecodeLabs-Internship" target="_blank" rel="noopener">View repository ↗</a>
+      </div>
+    </article>
+    <article class="job reveal">
+      <span class="dot"></span>
+      <div class="when">2026</div>
+      <div class="card">
+        <h3>Data Science Intern</h3><p class="org">Arch Technologies · 8 weeks, 160 hours</p>
+        <ul>
+          <li>Classified Titanic survival with Random Forest (81.56% accuracy).</li>
+          <li>Predicted next-day Apple stock close with Linear Regression (R² 0.992).</li>
+          <li>Clustered customers with K-Means (silhouette 0.34) and built a MovieLens recommender with Truncated SVD (RMSE 1.03).</li>
+        </ul>
+        <a class="link" href="https://github.com/sohaibali66/data-science-internship-archtechnologies" target="_blank" rel="noopener">View repository ↗</a>
+      </div>
+    </article>
+    <article class="job reveal">
+      <span class="dot live"></span>
+      <div class="when">Ongoing</div>
+      <div class="card">
+        <h3>Final Year Project: CricketSense</h3><p class="org">COMSATS University, Attock</p>
+        <ul><li>A computer vision pipeline for ball detection, trajectory tracking, shot classification and shot recommendation.</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="sec" id="projects">
+  <h2 class="reveal">Projects</h2>
+  <div class="filters reveal" id="filters" role="tablist">
+    <button class="on" data-f="all">All</button><button data-f="ml">Machine learning</button><button data-f="nlp">NLP</button><button data-f="cv">Computer vision</button><button data-f="web">Web</button>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="sec" id="skills">
+  <h2 class="reveal">Skills</h2>
+  <div class="skills reveal">
+    <div><h3>Languages</h3><p><span>Python</span><span>Java</span><span>JavaScript</span><span>SQL</span><span>PHP</span><span>HTML / CSS</span></p></div>
+    <div><h3>AI and data</h3><p><span>Scikit-learn</span><span>TensorFlow / Keras</span><span>OpenCV</span><span>YOLO</span><span>Pandas</span><span>NumPy</span><span>SMOTE</span><span>PCA</span></p></div>
+    <div><h3>Methods</h3><p><span>Classification</span><span>Regression</span><span>Clustering</span><span>Recommenders</span><span>Feature engineering</span><span>Model evaluation</span><span>LSTM</span></p></div>
+    <div><h3>Tools</h3><p><span>Jupyter</span><span>Google Colab</span><span>Kaggle</span><span>Git and GitHub</span><span>VS Code</span><span>React Native</span><span>XAMPP</span><span>MS Access</span></p></div>
+  </div>
+</section>
+
+<section class="sec" id="education">
+  <h2 class="reveal">Education</h2>
+  <div class="edu reveal">
+    <div><h3>BS Artificial Intelligence</h3><p>COMSATS University Islamabad, Attock Campus</p></div>
+    <p class="courses"><span>Computer Vision</span><span>NLP</span><span>Programming for AI</span><span>Data Structures</span><span>DAA</span><span>Database Systems</span><span>Software Engineering</span><span>Operating Systems</span><span>Web Technologies</span><span>Mobile App Development</span></p>
+  </div>
+</section>
+
+<section class="sec contact" id="contact">
+  <div class="contact-wrap reveal">
+    <div>
+      <h2>Let's work together</h2>
+      <p>Send me a message and it lands straight in my inbox. I usually reply within a day.</p>
+      <ul class="reach">
+        <li><span>Email</span><a href="mailto:sohaib87165@gmail.com">sohaib87165@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+923151532458">0315 1532458</a></li>
+        <li><span>WhatsApp</span><a href="https://wa.me/923151532458?text=Hi%20Sohaib%2C%20I%20saw%20your%20portfolio." target="_blank" rel="noopener">Message on WhatsApp</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/sohaib-ali-36529941b" target="_blank" rel="noopener">sohaib-ali-36529941b</a></li>
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button class="btn" type="submit" id="send">Send message</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><span>© <span id="yr">2026</span> Sohaib Ali</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
