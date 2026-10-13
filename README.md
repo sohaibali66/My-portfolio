@@ -1,51 +1,44 @@
+# Sohaib Ali | Personal Portfolio
 
-About the Project
+## 📌 About the Project
 
-This portfolio showcases my technical skills, academic projects, and development experience through a responsive personal website built with HTML, CSS, and JavaScript.
+This portfolio showcases my technical skills, academic projects, and development experience through a responsive personal website built using HTML, CSS, and JavaScript.
 
-Technologies Used
+## 🛠️ Technologies Used
 
-HTML5
+- HTML5
+- CSS3
+- JavaScript
 
-CSS3
+## ✨ Features
 
-JavaScript
+- Professional personal introduction
+- Technical skills and project showcase
+- Responsive website design
+- Contact form integration
+- Links to professional profiles and contact details
 
-Features
+## 📩 Contact Form
 
-Professional personal introduction
+The contact form uses [FormSubmit](https://formsubmit.co/) to send messages to **sohaib87165@gmail.com**.
 
-Technical skills and project showcase
+**Note:** FormSubmit may require email activation when the form is submitted for the first time. Check your inbox and activate the form if requested.
 
-Responsive website design
+## 🚀 Run Locally
 
-Contact form integration
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
 
-Links to professional profiles and contact details
+## 🌐 Live Website
 
-Contact Form
+**[Visit My Portfolio](https://portfolio-iota-dusky-97.vercel.app/)**
 
-The contact form uses FormSubmit to send messages to sohaib87165@gmail.com.
+## 👨‍💻 Author
 
-Note: FormSubmit may require email activation on the first submission. Check your inbox and activate the form if requested.
-
-Run Locally
-
-Clone or download this repository.
-
-Open index.html in your browser.
-
-Live Website
-
-portfolio-iota-dusky-97.vercel.app
-
-
-Author
-
-Sohaib Ali
+**Sohaib Ali**
 
 BS Artificial Intelligence Student
 
-GitHub: @sohaibali66
-
-Email: sohaib87165@gmail.com
+- **GitHub:** [@sohaibali66](https://github.com/sohaibali66)
+- **Email:** [sohaib87165@gmail.com](mailto:sohaib87165@gmail.com)
